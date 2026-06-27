@@ -26,7 +26,7 @@ echo "[2] Uninstall"
 read -p "> " usrAns
 
 if [ "$usrAns" -eq "2" ]; then
-  ./uninstall.sh
+  /opt/aj_rejammed/uninstall.sh
   exit
 elif ! [ "$usrAns" -eq "1" ]; then
   echo "Please give a valid option!"
